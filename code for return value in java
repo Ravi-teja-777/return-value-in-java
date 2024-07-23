@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Github{
+    static int method(){
+        Scanner x = new Scanner(System.in);
+        System.out.print("Enter first number to add  : ");
+        int a = x.nextInt();
+        System.out.print("Enter second number to add : ");
+        int b = x.nextInt();
+        return a+b;
+        
+    }
+    
+    public static void main(String args[]){
+        
+        int z = method();
+        System.out.println("The final result : "+z);
+    }
+}
